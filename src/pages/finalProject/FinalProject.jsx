@@ -4,6 +4,7 @@ import FavMovies from "../../components/FavMovies";
 import FavMusic from "../../components/FavMusic";
 import "./FinalProject.css";
 import EmbedYoutube from "../../components/EmbedYoutube";
+// you can test how to use Gemini API here
 import GeminiApp from "../../gemini/GeminiApp";
 
 export default function FinalProject() {
