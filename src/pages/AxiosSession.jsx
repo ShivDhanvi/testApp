@@ -20,6 +20,20 @@ function AxiosSession() {
       });
   }, []);
 
+  // Axios code will go here
+  useEffect(() => {
+    // Axios GET requests will be made here
+    axios
+      .get("https://jsonplaceholder.typicode.com/toofdododdooo")
+      .then((response) => {
+        console.log("GET Response:", response.data);
+        setData(response.data);
+      })
+      .catch((error) => {
+        console.log("Error fetching data:", error);
+      });
+  }, []);
+
   // Axios POST request example
   const createPost = () => {
     const payload = {
